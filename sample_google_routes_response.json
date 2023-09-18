@@ -1,0 +1,654 @@
+{
+  "routes": [
+    {
+      "legs": [
+        {
+          "distanceMeters": 17541,
+          "duration": "5823s",
+          "staticDuration": "5823s",
+          "polyline": {
+            "encodedPolyline": "b}ye@oeakSl@?r@GHBD\\Uj@MjAIBi@BBf@z@E@\\g@B@VfAI@RAS}Lv@qCL_CZaB^wEt@mFfAIAs@Dy@Eo@QoB_AICc@[i@Ia@?UDe@VWVc@v@h@dHRbA\\j@d@\\`@Jh@?n@WXo@@e@EWO[]U}@UyAW_NsAcBMeGE_ACuASyA_@]Ko@M{CW{BKcC?_AQu@O}AQ}EYgDW{DOg@E{BIg@?{DSmD]eEq@oB_@{J}AiDe@uGeAmFk@}@KgACgB@qBNeCh@mGlBsE~A{Bx@qBt@i@HkABwBBqDD_ACk@Ig@OeB}@{A_AuEiCMKu@]oHmEa@I_@CYBe@LiAD{BB{BFcI?{@Ow@Us@]g@I}KiAwEg@_Gw@qC[gAI}@MmD_AsBm@_ASSMeA[{CqAwAi@gAUYC_@?kAEcAIgEi@kMqAy@Uw@Ic@?mDW}@MgA?qFQwEOuCOmD_@}Fw@e@K[As@MaFsAcLgDcD_ACHBIoH}ByDcAcAKOP}EfUyEkA[|EYtCOtAEbACbHJd@N^~CzFDT?nDKpJA`DGhKPhFHdAF~EC\\ETaB_@m@S}EqAoB_@{DcAqB}@sBaAiG{BcAc@{Aw@qA{@iDsBuAm@m@Q_C_@_AGaBFcAHgA?eNi@iAOiAYg@IeAEgBJ}AG}E[mC]aAEeBBaAH{@NyA^kARmA@mCIiBHmCPg@?}AKuB@YF]V}@`BQP[^k@^mAf@uD`A{Cl@cGz@aI`A_Ej@mH|A}@FcFz@gBLmCPsDZgEf@mJl@eEZcEV}F`@sIZqDFo@?GBDNAGe@BaE?y@?m@RUPEHS?Be@OEK@EBCHcBn@sChB"
+          },
+          "startLocation": {
+            "latLng": {
+              "latitude": -6.3638648,
+              "longitude": 106.834955
+            }
+          },
+          "endLocation": {
+            "latLng": {
+              "latitude": -6.2387451,
+              "longitude": 106.8247117
+            }
+          },
+          "steps": [
+            {
+              "distanceMeters": 177,
+              "staticDuration": "149s",
+              "polyline": {
+                "encodedPolyline": "b}ye@oeakSl@?r@GHBD\\Uj@MjAIBi@B"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3638648,
+                  "longitude": 106.834955
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.3639882,
+                  "longitude": 106.834187
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "Pergilah ke selatan"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0,2 km"
+                },
+                "staticDuration": {
+                  "text": "2 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 22,
+              "staticDuration": "19s",
+              "polyline": {
+                "encodedPolyline": "|}ye@u`akSBf@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3639882,
+                  "longitude": 106.834187
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.3640134999999995,
+                  "longitude": 106.83399299999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri menuju Jl. Margonda/Jl. Margonda Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "22 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 50,
+              "staticDuration": "36s",
+              "polyline": {
+                "encodedPolyline": "`~ye@m_akSz@E@\\"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3640134999999995,
+                  "longitude": 106.83399299999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.3643161,
+                  "longitude": 106.83387069999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri menuju Jl. Margonda/Jl. Margonda Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "50 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 22,
+              "staticDuration": "18s",
+              "polyline": {
+                "encodedPolyline": "~_ze@u~`kSg@B"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3643161,
+                  "longitude": 106.83387069999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.3641181,
+                  "longitude": 106.8338472
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "Belok kanan ke Jl. Margonda/Jl. Margonda Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "22 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 13,
+              "staticDuration": "16s",
+              "polyline": {
+                "encodedPolyline": "v~ye@q~`kS@V"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3641181,
+                  "longitude": 106.8338472
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.3641304,
+                  "longitude": 106.83373119999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri sebelum Indomaret Margonda Residence"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "13 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 40,
+              "staticDuration": "35s",
+              "polyline": {
+                "encodedPolyline": "x~ye@y}`kSfAI"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3641304,
+                  "longitude": 106.83373119999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.3644884,
+                  "longitude": 106.83377589999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri ke Jl. Margonda/Jl. Margonda Raya\nLewati Margonda Residence (di kiri)\nTujuan ada di sebelah kanan."
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "40 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 9140,
+              "staticDuration": "1740s",
+              "polyline": {
+                "encodedPolyline": "baze@o}`kSAS}Lv@qCL_CZaB^wEt@mFfAIAs@Dy@Eo@QoB_AICc@[i@Ia@?UDe@VWVc@v@h@dHRbA\\j@d@\\`@Jh@?n@WXo@@e@EWO[]U}@UyAW_NsAcBMeGE_ACuASyA_@]Ko@M{CW{BKcC?_AQu@O}AQ}EYgDW{DOg@E{BIg@?{DSmD]eEq@oB_@{J}AiDe@uGeAmFk@}@KgACgB@qBNeCh@mGlBsE~A{Bx@qBt@i@HkABwBBqDD_ACk@Ig@OeB}@{A_AuEiCMKu@]oHmEa@I_@CYBe@LiAD{BB{BFcI?{@Ow@Us@]g@I}KiAwEg@_Gw@qC[gAI}@MmD_AsBm@_ASSMeA[{CqAwAi@gAUYC_@?kAEcAIgEi@kMqAy@Uw@Ic@?mDW}@MgA?qFQwEOuCOmD_@}Fw@e@K[As@MaFsAcLgDcD_ACH"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.3645,
+                  "longitude": 106.83368
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.2906499999999994,
+                  "longitude": 106.84235
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "Bus menuju Kampung Rambutan"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "9,1 km"
+                },
+                "staticDuration": {
+                  "text": "29 menit"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Grand Pasar Minggu",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.2906499999999994,
+                        "longitude": 106.84235
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-17T13:53:29Z",
+                  "departureStop": {
+                    "name": "Seberang Gang Madrasah",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.3645,
+                        "longitude": 106.83368
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-17T13:24:29Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "20.53"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "20.24"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  }
+                },
+                "headsign": "Kampung Rambutan",
+                "headway": "600s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Angkot Jakarta",
+                      "uri": "http://kwahanakalpikatimur1.blogspot.com/"
+                    }
+                  ],
+                  "name": "Depok - Kampung Rambutan",
+                  "color": "#f23122",
+                  "nameShort": "T19",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Bus"
+                    },
+                    "type": "BUS",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                  }
+                },
+                "stopCount": 17
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 7644,
+              "staticDuration": "2236s",
+              "polyline": {
+                "encodedPolyline": "pske@usbkSBIoH}ByDcAcAKOP}EfUyEkA[|EYtCOtAEbACbHJd@N^~CzFDT?nDKpJA`DGhKPhFHdAF~EC\\ETaB_@m@S}EqAoB_@{DcAqB}@sBaAiG{BcAc@{Aw@qA{@iDsBuAm@m@Q_C_@_AGaBFcAHgA?eNi@iAOiAYg@IeAEgBJ}AG}E[mC]aAEeBBaAH{@NyA^kARmA@mCIiBHmCPg@?}AKuB@YF]V}@`BQP[^k@^mAf@uD`A{Cl@cGz@aI`A_Ej@mH|A}@FcFz@gBLmCPsDZgEf@mJl@eEZcEV}F`@sIZqDFo@?GBDN"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.2906499999999994,
+                  "longitude": 106.84235
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.24209,
+                  "longitude": 106.82556
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "Bus menuju Pasar Minggu - Blok M"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "7,6 km"
+                },
+                "staticDuration": {
+                  "text": "37 menit"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Mampang Prapatan 2",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.24209,
+                        "longitude": 106.82556
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-17T14:50:45Z",
+                  "departureStop": {
+                    "name": "Grand Pasar Minggu",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.2906499999999994,
+                        "longitude": 106.84235
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-17T14:13:29Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "21.50"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "21.13"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  }
+                },
+                "headsign": "Pasar Minggu - Blok M",
+                "headway": "1200s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "PT Transportasi Jakarta",
+                      "phoneNumber": "+62 1 500 102",
+                      "uri": "https://transjakarta.co.id/"
+                    }
+                  ],
+                  "name": "Pasar Minggu - Blok M",
+                  "color": "#4cac67",
+                  "nameShort": "6U",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Bus"
+                    },
+                    "type": "BUS",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                  }
+                },
+                "stopCount": 15
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 217,
+              "staticDuration": "175s",
+              "polyline": {
+                "encodedPolyline": "~cbe@_k_kSe@BaE?y@?m@RUPEHS?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.2420754999999994,
+                  "longitude": 106.82560120000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.2401643999999994,
+                  "longitude": 106.82534120000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "Pergilah ke utara di Jl. Mampang Prpt. Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0,2 km"
+                },
+                "staticDuration": {
+                  "text": "3 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 21,
+              "staticDuration": "28s",
+              "polyline": {
+                "encodedPolyline": "~wae@ki_kSBe@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.2401643999999994,
+                  "longitude": 106.82534120000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.240178900000001,
+                  "longitude": 106.82552749999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SHARP_RIGHT",
+                "instructions": "Belok tajam ke kanan di Jl. Kapten Tendean"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "21 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 30,
+              "staticDuration": "23s",
+              "polyline": {
+                "encodedPolyline": "bxae@qj_kSOEK@EB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.240178900000001,
+                  "longitude": 106.82552749999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.2400091,
+                  "longitude": 106.82553410000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri menuju Jl. Kuningan Barat Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "30 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 9,
+              "staticDuration": "7s",
+              "polyline": {
+                "encodedPolyline": "`wae@qj_kSCH"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.2400091,
+                  "longitude": 106.82553410000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.2399885,
+                  "longitude": 106.82548489999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri menuju Jl. Kuningan Barat Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "9 m"
+                },
+                "staticDuration": {
+                  "text": "1 menit"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 156,
+              "staticDuration": "141s",
+              "polyline": {
+                "encodedPolyline": "|vae@gj_kScBn@sChB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.2399885,
+                  "longitude": 106.82548489999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.2387451,
+                  "longitude": 106.8247117
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_SLIGHT_RIGHT",
+                "instructions": "Belok sedikit ke kanan menuju Jl. Kuningan Barat Raya"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0,2 km"
+                },
+                "staticDuration": {
+                  "text": "2 menit"
+                }
+              },
+              "travelMode": "WALK"
+            }
+          ],
+          "localizedValues": {
+            "distance": {
+              "text": "17,5 km"
+            },
+            "duration": {
+              "text": "1 jam 37 menit"
+            },
+            "staticDuration": {
+              "text": "1 jam 37 menit"
+            }
+          },
+          "stepsOverview": {
+            "multiModalSegments": [
+              {
+                "stepStartIndex": 0,
+                "stepEndIndex": 5,
+                "navigationInstruction": {
+                  "instructions": "Jalan kaki ke Seberang Gang Madrasah"
+                },
+                "travelMode": "WALK"
+              },
+              {
+                "stepStartIndex": 6,
+                "stepEndIndex": 6,
+                "navigationInstruction": {
+                  "instructions": "Bus menuju Kampung Rambutan"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "stepStartIndex": 7,
+                "stepEndIndex": 7,
+                "navigationInstruction": {
+                  "instructions": "Bus menuju Pasar Minggu - Blok M"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "stepStartIndex": 8,
+                "stepEndIndex": 12,
+                "travelMode": "WALK"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 17541,
+      "duration": "6424s",
+      "staticDuration": "6424s",
+      "polyline": {
+        "encodedPolyline": "b}ye@oeakSl@?r@GHBD\\Uj@MjAIBi@BBf@z@E@\\g@B@VfAI@RAS}Lv@qCL_CZaB^wEt@mFfAIAs@Dy@Eo@QoB_AICc@[i@Ia@?UDe@VWVc@v@h@dHRbA\\j@d@\\`@Jh@?n@WXo@@e@EWO[]U}@UyAW_NsAcBMeGE_ACuASyA_@]Ko@M{CW{BKcC?_AQu@O}AQ}EYgDW{DOg@E{BIg@?{DSmD]eEq@oB_@{J}AiDe@uGeAmFk@}@KgACgB@qBNeCh@mGlBsE~A{Bx@qBt@i@HkABwBBqDD_ACk@Ig@OeB}@{A_AuEiCMKu@]oHmEa@I_@CYBe@LiAD{BB{BFcI?{@Ow@Us@]g@I}KiAwEg@_Gw@qC[gAI}@MmD_AsBm@_ASSMeA[{CqAwAi@gAUYC_@?kAEcAIgEi@kMqAy@Uw@Ic@?mDW}@MgA?qFQwEOuCOmD_@}Fw@e@K[As@MaFsAcLgDcD_ACHBIoH}ByDcAcAKOP}EfUyEkA[|EYtCOtAEbACbHJd@N^~CzFDT?nDKpJA`DGhKPhFHdAF~EC\\ETaB_@m@S}EqAoB_@{DcAqB}@sBaAiG{BcAc@{Aw@qA{@iDsBuAm@m@Q_C_@_AGaBFcAHgA?eNi@iAOiAYg@IeAEgBJ}AG}E[mC]aAEeBBaAH{@NyA^kARmA@mCIiBHmCPg@?}AKuB@YF]V}@`BQP[^k@^mAf@uD`A{Cl@cGz@aI`A_Ej@mH|A}@FcFz@gBLmCPsDZgEf@mJl@eEZcEV}F`@sIZqDFo@?GBDNAGe@BaE?y@?m@RUPEHS?Be@OEK@EBCHcBn@sChB"
+      },
+      "viewport": {
+        "low": {
+          "latitude": -6.3645,
+          "longitude": 106.8247117
+        },
+        "high": {
+          "latitude": -6.2387451,
+          "longitude": 106.8434288
+        }
+      },
+      "travelAdvisory": {
+        "transitFare": {}
+      },
+      "localizedValues": {
+        "distance": {
+          "text": "17,5 km"
+        },
+        "duration": {
+          "text": "1 jam 47 menit"
+        },
+        "staticDuration": {
+          "text": "1 jam 47 menit"
+        },
+        "transitFare": {}
+      },
+      "routeLabels": ["DEFAULT_ROUTE"]
+    }
+  ],
+  "geocodingResults": {
+    "origin": {
+      "geocoderStatus": {},
+      "type": ["premise"],
+      "placeId": "ChIJwajplRbsaS4RW8HX0mdYRSY"
+    },
+    "destination": {
+      "geocoderStatus": {},
+      "type": ["establishment", "point_of_interest"],
+      "partialMatch": true,
+      "placeId": "ChIJ0ZvO-N3zaS4Rp2ap4D3T2Q0"
+    }
+  }
+}

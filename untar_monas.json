@@ -1,0 +1,463 @@
+{
+  "routes": [
+    {
+      "legs": [
+        {
+          "distanceMeters": 7170,
+          "duration": "2423s",
+          "staticDuration": "2423s",
+          "polyline": {
+            "encodedPolyline": "xntd@{jxjSNIZXxBoBhFcFzA}ApAeBdCuCB@PC@@hIcJ?MhBcBzAkAjB_Ar@W_@oAaAkCYeAe@eAe@{@oD}F_AwAiB{CqDwF{AwBwBgFg@iAeCuD_D{EiEiHc@}@{@qBMm@_AsIi@yG_B}NeAyLIu@FAG@c@kE_@}B[uA]e@mAw@mAeA}A_B][g@Y]MYa@Us@Ci@DcDCiA]_FQeFAyBjA?~@GrTk@v@NAfI@jAN\\p@j@vFH~F@JB`EDrB@~BBdKFpC@dBBNC|@k@TWRe@Ju@DKCsEImHH?FKiA~R"
+          },
+          "startLocation": {
+            "latLng": {
+              "latitude": -6.17213,
+              "longitude": 106.7897424
+            }
+          },
+          "endLocation": {
+            "latLng": {
+              "latitude": -6.1800982,
+              "longitude": 106.8232914
+            }
+          },
+          "steps": [
+            {
+              "distanceMeters": 37,
+              "staticDuration": "30s",
+              "polyline": {
+                "encodedPolyline": "xntd@{jxjSNIZX"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.17213,
+                  "longitude": 106.7897424
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.17235,
+                  "longitude": 106.78965509999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "Ambil arah tenggara menuju Jl. Letjen S. Parman"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "37 m"
+                },
+                "staticDuration": {
+                  "text": "1 min"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 531,
+              "staticDuration": "442s",
+              "polyline": {
+                "encodedPolyline": "dptd@kjxjSxBoBhFcFzA}ApAeBdCuC"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.17235,
+                  "longitude": 106.78965509999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.1756737,
+                  "longitude": 106.79309479999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "Belok kiri ke Jl. Letjen S. Parman\nTujuan ada di sebelah kiri."
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0,5 km"
+                },
+                "staticDuration": {
+                  "text": "7 min"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 10,
+              "staticDuration": "11s",
+              "polyline": {
+                "encodedPolyline": "`eud@w_yjSPC"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.1756899999999995,
+                  "longitude": 106.79307999999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.17578,
+                  "longitude": 106.7931
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "Ambil jalan masuk S Parman Podomoro City Arah Timur Akses A"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "10 m"
+                },
+                "staticDuration": {
+                  "text": "1 min"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 3096,
+              "staticDuration": "876s",
+              "polyline": {
+                "encodedPolyline": "reud@{_yjS@@hIcJ?MhBcBzAkAjB_Ar@W_@oAaAkCYeAe@eAe@{@oD}F_AwAiB{CqDwF{AwBwBgFg@iAeCuD_D{EiEiHc@}@{@qBMm@_AsIi@yG_B}NeAyLIu@FA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.17578,
+                  "longitude": 106.7931
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.16995,
+                  "longitude": 106.81698
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "Bas menuju Lebak Bulus - Pasar Baru"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "3,1 km"
+                },
+                "staticDuration": {
+                  "text": "15 min"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Petojo",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.16995,
+                        "longitude": 106.81698
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-17T14:10:13Z",
+                  "departureStop": {
+                    "name": "S Parman Podomoro City Arah Timur",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.17578,
+                        "longitude": 106.7931
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-17T13:55:37Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "21.10"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "20.55"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  }
+                },
+                "headsign": "Lebak Bulus - Pasar Baru",
+                "headway": "300s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "PT Transportasi Jakarta",
+                      "phoneNumber": "+62 1 500 102",
+                      "uri": "https://transjakarta.co.id/"
+                    }
+                  ],
+                  "name": "Lebak Bulus - Pasar Baru",
+                  "color": "#dd3393",
+                  "nameShort": "8",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Bas"
+                    },
+                    "type": "BUS",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                  }
+                },
+                "stopCount": 4
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 3133,
+              "staticDuration": "865s",
+              "polyline": {
+                "encodedPolyline": "datd@cu}jSG@c@kE_@}B[uA]e@mAw@mAeA}A_B][g@Y]MYa@Us@Ci@DcDCiA]_FQeFAyBjA?~@GrTk@v@NAfI@jAN\\p@j@vFH~F@JB`EDrB@~BBdKFpC@dBBNC|@k@TWRe@Ju@DKCsEImHH?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.16995,
+                  "longitude": 106.81698
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.1804299999999994,
+                  "longitude": 106.82643
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "Bas menuju Rawa Buaya - Pulo Gadung"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "3,1 km"
+                },
+                "staticDuration": {
+                  "text": "14 min"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Balai Kota",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.1804299999999994,
+                        "longitude": 106.82643
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-17T14:27:45Z",
+                  "departureStop": {
+                    "name": "Petojo",
+                    "location": {
+                      "latLng": {
+                        "latitude": -6.16995,
+                        "longitude": 106.81698
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-17T14:13:20Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "21.27"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "21.13"
+                    },
+                    "timeZone": "Asia/Jakarta"
+                  }
+                },
+                "headsign": "Rawa Buaya - Pulo Gadung",
+                "headway": "180s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "PT Transportasi Jakarta",
+                      "phoneNumber": "+62 1 500 102",
+                      "uri": "https://transjakarta.co.id/"
+                    }
+                  ],
+                  "name": "Pulo Gadung 1 - Rawa Buaya",
+                  "color": "#2f489c",
+                  "nameShort": "2A",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Bas"
+                    },
+                    "type": "BUS",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                  }
+                },
+                "stopCount": 2
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 7,
+              "staticDuration": "8s",
+              "polyline": {
+                "encodedPolyline": "tbvd@ep_kSFK"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.1804299999999994,
+                  "longitude": 106.82643
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.18047,
+                  "longitude": 106.82648999999999
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "Ambil jalan keluar Balai Kota Akses A"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "7 m"
+                },
+                "staticDuration": {
+                  "text": "1 min"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 356,
+              "staticDuration": "4s",
+              "polyline": {
+                "encodedPolyline": "|bvd@qp_kSiA~R"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": -6.18047,
+                  "longitude": 106.82648999999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": -6.1800982,
+                  "longitude": 106.8232914
+                }
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0,4 km"
+                },
+                "staticDuration": {
+                  "text": "1 min"
+                }
+              },
+              "travelMode": "WALK"
+            }
+          ],
+          "localizedValues": {
+            "distance": {
+              "text": "7,2 km"
+            },
+            "duration": {
+              "text": "40 min"
+            },
+            "staticDuration": {
+              "text": "40 min"
+            }
+          },
+          "stepsOverview": {
+            "multiModalSegments": [
+              {
+                "stepStartIndex": 0,
+                "stepEndIndex": 2,
+                "navigationInstruction": {
+                  "instructions": "Jalan kaki ke S Parman Podomoro City Arah Timur"
+                },
+                "travelMode": "WALK"
+              },
+              {
+                "stepStartIndex": 3,
+                "stepEndIndex": 3,
+                "navigationInstruction": {
+                  "instructions": "Bas menuju Lebak Bulus - Pasar Baru"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "stepStartIndex": 4,
+                "stepEndIndex": 4,
+                "navigationInstruction": {
+                  "instructions": "Bas menuju Rawa Buaya - Pulo Gadung"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "stepStartIndex": 5,
+                "stepEndIndex": 6,
+                "travelMode": "WALK"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 7170,
+      "duration": "2723s",
+      "staticDuration": "2723s",
+      "polyline": {
+        "encodedPolyline": "xntd@{jxjSNIZXxBoBhFcFzA}ApAeBdCuCB@PC@@hIcJ?MhBcBzAkAjB_Ar@W_@oAaAkCYeAe@eAe@{@oD}F_AwAiB{CqDwF{AwBwBgFg@iAeCuD_D{EiEiHc@}@{@qBMm@_AsIi@yG_B}NeAyLIu@FAG@c@kE_@}B[uA]e@mAw@mAeA}A_B][g@Y]MYa@Us@Ci@DcDCiA]_FQeFAyBjA?~@GrTk@v@NAfI@jAN\\p@j@vFH~F@JB`EDrB@~BBdKFpC@dBBNC|@k@TWRe@Ju@DKCsEImHH?FKiA~R"
+      },
+      "viewport": {
+        "low": {
+          "latitude": -6.18047,
+          "longitude": 106.78965509999999
+        },
+        "high": {
+          "latitude": -6.1670285,
+          "longitude": 106.82648999999999
+        }
+      },
+      "travelAdvisory": {
+        "transitFare": {
+          "currencyCode": "IDR",
+          "units": "3500"
+        }
+      },
+      "localizedValues": {
+        "distance": {
+          "text": "7,2 km"
+        },
+        "duration": {
+          "text": "45 min"
+        },
+        "staticDuration": {
+          "text": "45 min"
+        },
+        "transitFare": {
+          "text": "Rp 3.500,00"
+        }
+      },
+      "routeLabels": ["DEFAULT_ROUTE"]
+    }
+  ],
+  "geocodingResults": {
+    "origin": {
+      "geocoderStatus": {},
+      "type": ["establishment", "point_of_interest", "university"],
+      "partialMatch": true,
+      "placeId": "ChIJNY-dIFz2aS4RlkybSAQotGo"
+    },
+    "destination": {
+      "geocoderStatus": {},
+      "type": ["establishment", "point_of_interest", "tourist_attraction"],
+      "partialMatch": true,
+      "placeId": "ChIJLbFk59L1aS4RyLzp4OHWKj0"
+    }
+  }
+}
