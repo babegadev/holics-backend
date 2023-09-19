@@ -1,5 +1,5 @@
 // const data = require("./sample_google_routes_response.json");
-const data = require("./untar_monas.json");
+// const data = require("./untar_monas.json");
 
 function parseTransitResponse(data) {
   if (data.routes && data.routes.length > 0) {
@@ -36,7 +36,7 @@ function parseTransitResponse(data) {
       }
 
       let lastMileDuration = [];
-      for (let m = allSteps.length-1; m >= 0; m--) {
+      for (let m = allSteps.length - 1; m >= 0; m--) {
         if (allSteps[m].travelMode === "WALK") {
           lastMileDuration.push(parseInt(allSteps[m].localizedValues.staticDuration.text)); // Convert duration to int and push to the array
         } else {
@@ -48,8 +48,8 @@ function parseTransitResponse(data) {
       // Calculate the sum of first mile and last mile durations
       const sumFirstMileDuration = firstMileDuration.reduce((acc, duration) => acc + duration, 0);
       const sumLastMileDuration = lastMileDuration.reduce((acc, duration) => acc + duration, 0);
-      const firstMilePrice = 3 + (0.275 * sumFirstMileDuration) + (3 * (firstMileDistance * 0.00062137)) + 1.75
-      const lastMilePrice = 3 + (0.275 * sumLastMileDuration) + (3 * (lastMileDistance * 0.00062137)) + 1.75
+      const firstMilePrice = 3 + 0.275 * sumFirstMileDuration + 3 * (firstMileDistance * 0.00062137) + 1.75;
+      const lastMilePrice = 3 + 0.275 * sumLastMileDuration + 3 * (lastMileDistance * 0.00062137) + 1.75;
 
       return {
         transit1,
@@ -57,13 +57,13 @@ function parseTransitResponse(data) {
         firstMileDistance,
         lastMileDistance,
         firstMileDuration: sumFirstMileDuration, // Replace the array with the sum
-        lastMileDuration: sumLastMileDuration,   // Replace the array with the sum
+        lastMileDuration: sumLastMileDuration, // Replace the array with the sum
         firstMilePrice: firstMilePrice.toFixed(2),
-        lastMilePrice : lastMilePrice.toFixed(2)
+        lastMilePrice: lastMilePrice.toFixed(2),
       };
     }
   }
   return null;
 }
 
-console.log(parseTransitResponse(data));
+module.exports = parseTransitResponse;

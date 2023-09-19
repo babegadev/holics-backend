@@ -2,8 +2,6 @@ const express = require("express");
 const axios = require("axios");
 require("dotenv").config();
 
-const parseTransitResponse = require("./parse");
-
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -24,8 +22,85 @@ app.post("/getTransitDetails", async (req, res) => {
   }
 });
 
+function extractTransitStops(steps) {
+  const transitSteps = steps.filter((step) => step.travelMode === "TRANSIT");
+  if (transitSteps.length >= 2) {
+    const transit1 = {
+      name: transitSteps[0].transitDetails.stopDetails.departureStop.name,
+      location: transitSteps[0].transitDetails.stopDetails.departureStop.location,
+    };
+    const transit2 = {
+      name: transitSteps[transitSteps.length - 1].transitDetails.stopDetails.arrivalStop.name,
+      location: transitSteps[transitSteps.length - 1].transitDetails.stopDetails.arrivalStop.location,
+    };
+    return { transit1, transit2 };
+  }
+  return null;
+}
+
+function calculateMileageAndDuration(steps) {
+  let i = 0;
+  let firstMileDistance = 0;
+  let sumFirstMileDuration = 0;
+  let k = steps.length - 1;
+  let lastMileDistance = 0;
+  let sumLastMileDuration = 0;
+
+  while (i < steps.length && steps[i].travelMode === "WALK") {
+    firstMileDistance += steps[i].distanceMeters;
+    sumFirstMileDuration += parseInt(steps[i].localizedValues.staticDuration.text) || 0;
+    i++;
+  }
+
+  while (k >= 0 && steps[k].travelMode === "WALK") {
+    lastMileDistance += steps[k].distanceMeters;
+    sumLastMileDuration += parseInt(steps[k].localizedValues.staticDuration.text) || 0;
+    k--;
+  }
+
+  return {
+    firstMileDistance,
+    lastMileDistance,
+    firstMileDuration: sumFirstMileDuration,
+    lastMileDuration: sumLastMileDuration,
+  };
+}
+
+function calculatePrices(firstMileDistance, firstMileDuration, lastMileDistance, lastMileDuration) {
+  const firstMilePrice = 3 + 0.275 * firstMileDuration + 3 * (firstMileDistance * 0.00062137) + 1.75;
+  const lastMilePrice = 3 + 0.275 * lastMileDuration + 3 * (lastMileDistance * 0.00062137) + 1.75;
+  return {
+    firstMilePrice: firstMilePrice.toFixed(2),
+    lastMilePrice: lastMilePrice.toFixed(2),
+  };
+}
+
+function parseTransitResponse(data) {
+  if (data.routes && data.routes.length > 0) {
+    const route = data.routes[0];
+    console.log(route.travelAdvisory.transitFare.units);
+    const { transit1, transit2 } = extractTransitStops(route.legs[0].steps);
+    const { firstMileDistance, lastMileDistance, firstMileDuration, lastMileDuration } = calculateMileageAndDuration(route.legs[0].steps);
+    const { firstMilePrice, lastMilePrice } = calculatePrices(firstMileDistance, firstMileDuration, lastMileDistance, lastMileDuration);
+    const transitPrice = route.travelAdvisory.transitFare.units || 0;
+
+    return {
+      transit1,
+      transit2,
+      firstMileDistance,
+      lastMileDistance,
+      firstMileDuration,
+      lastMileDuration,
+      firstMilePrice,
+      lastMilePrice,
+      transitPrice,
+    };
+  }
+  return null;
+}
+
 async function getTransitDetails(origin, destination, timeOfDeparture) {
-  const apiKey = AIzaSyBXM9gw073RGxzJ8g5dOKeSBHg5lT7lRTs; // Replace with your Google API key
+  const apiKey = process.env.GOOGLE_API_KEY; // Replace with your Google API key
   const apiUrl = "https://routes.googleapis.com/directions/v2:computeRoutes?key=" + apiKey;
 
   let data = JSON.stringify({
@@ -51,11 +126,11 @@ async function getTransitDetails(origin, destination, timeOfDeparture) {
     data: data,
   };
 
-  axios
+  return axios
     .request(config)
-    .then((response) => {
-      const transitDetails = parseTransitResponse(response.data);
-      console.log(transitDetails);
+    .then(async (response) => {
+      const transitDetails = await parseTransitResponse(response.data);
+      return transitDetails;
       // console.log(JSON.stringify(response.data));
     })
     .catch((error) => {
