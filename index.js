@@ -24,7 +24,7 @@ app.post("/getTransitDetails", async (req, res) => {
 
 // Define a function to fetch transit details from Google Directions API
 async function getTransitDetails(origin, destination, timeOfDeparture) {
-  const apiKey = process.env.GOOGLE_API_KEY; // Replace with your Google API key
+  const apiKey = AIzaSyBXM9gw073RGxzJ8g5dOKeSBHg5lT7lRTs; // Replace with your Google API key
   const apiUrl = "https://routes.googleapis.com/directions/v2:computeRoutes";
 
   try {
@@ -73,21 +73,42 @@ async function getTransitDetails(origin, destination, timeOfDeparture) {
 }
 
 // Function to parse the transit details from the Google Directions API response
+// Modify the parseTransitResponse function to extract distanceMeters from steps
 function parseTransitResponse(data) {
   if (data.routes && data.routes.length > 0) {
     const route = data.routes[0];
-    const transitSteps = route.legs[0].steps.filter((step) => step.travel_mode === "TRANSIT");
+    const allSteps = route.legs[0].steps;
+    const transitSteps = route.legs[0].steps.filter((step) => step.travelMode === "TRANSIT");
 
     if (transitSteps.length >= 2) {
-      const transit1 = transitSteps[0].transit_details.departure_stop.name;
-      const transit2 = transitSteps[transitSteps.length - 1].transit_details.arrival_stop.name;
+      const transit1 = { name: transitSteps[0].transitDetails.stopDetails.departureStop.name, location: transitSteps[0].transitDetails.stopDetails.departureStop.location };
+      const transit2 = { name: transitSteps[transitSteps.length - 1].transitDetails.stopDetails.arrivalStop.name, location: transitSteps[transitSteps.length - 1].transitDetails.stopDetails.arrivalStop.location };
 
-      return { transit1, transit2 };
+      // Extract distanceMeters from WALK steps before TRANSIT steps
+      let i = 0;
+      let firstMileDistance = 0; // Initialize a variable to store the sum
+      while (i < allSteps.length && allSteps[i].travelMode === "WALK") {
+        firstMileDistance += allSteps[i].distanceMeters; // Add the distance to the sum
+        i++;
+      }
+
+// Now, firstMileDistanceSum contains the sum of the distances
+
+      let k = allSteps.length - 1;
+      let lastMileDistance = 0;
+      while (k >= 0 && allSteps[k].travelMode === "WALK") {
+        lastMileDistance += allSteps[k].distanceMeters;
+        k--;
+      }
+
+
+      return { transit1, transit2, firstMileDistance, lastMileDistance}; // Include walkDistances in the return object
     }
   }
 
   return null;
 }
+
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
